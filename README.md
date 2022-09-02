@@ -1,9 +1,9 @@
 # TurtleSim_FaceTracker
-In this project we want to make th eturtle in turtlesim move as our face moves and control it with our face. In order to do so, we define a new masage coordinate_msg that contains the x and y coordinate of a face you can check it using:
+In this project we want to make th eturtle in turtlesim move as our face moves and control it with our face. In order to do so, we define a new masage coordinate_msg that contains the x and y coordinate of a face. Check it using:
 ```console
 rosmsg show package_name/coordinate_msg
 ```
-The sendfacetracker.py file is a publisher which finds the face using haarcascade and publishes the middle point of the found face using coordinate_msg (you can test it using:
+The sendfacetracker.py file is a publisher which finds the face using haarcascade and publishes the middle point of the found face using coordinate_msg. You can test it using:
 ```console
 rosrun package_name sendfacetracker.py
 rostopic echo /coordinate

@@ -1,0 +1,6 @@
+<launch>
+	<node pkg="facetrackerturtul_pckg" type="sendfacetracker.py" name="tracker" />
+	<node pkg="facetrackerturtul_pckg" type="calculaternode.py" name="claculator" />
+	<param name="cascadepath" value = "/home/banafsheh/catkin_ws/src/facetrackerturtul_pckg/src/haarcascade_frontalface_default.xml"/>
+	<node pkg="turtlesim" type="turtlesim_node" name="turtle" />
+</launch>

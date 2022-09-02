@@ -14,5 +14,9 @@ rostopic echo /coordinate
 roslaucn package_name pckg_lauch.launch
 ```
 <br />The followings are the rqt_graph and a sample movement of the turtle.<br />
-![](https://github.com/BanafshehKarimian/TurtleSim_FaceTracker/blob/main/result.png)<br />
-![](https://github.com/BanafshehKarimian/TurtleSim_FaceTracker/blob/main/graph.PNG)<br />
+<p align="center">
+  <img src="https://github.com/BanafshehKarimian/TurtleSim_FaceTracker/blob/main/result.png" />
+</p>
+<p align="center">
+  <img src="https://github.com/BanafshehKarimian/TurtleSim_FaceTracker/blob/main/graph.PNG" />
+</p>

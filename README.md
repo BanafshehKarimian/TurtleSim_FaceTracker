@@ -3,5 +3,5 @@ We define a new masage coordinate_msg that contains the x and y coordinate of a 
 <br /> Next the subscriber node is coded in calculaternode.py which recieves the coordinate of the face and the position of the turtle. It then publishes the speed the turtle need to move through calculating the distance of pose to its required location corresponding to the face.
 <br />You can launch the project using "roslaucn package_name pckg_lauch.launch"
 <br />The followings are the rqt_graph and a sample movement of the turtle.
-![](https://github.com/BanafshehKarimian/TurtleSim_FaceTracker/blob/master/result.png)
-![](https://github.com/BanafshehKarimian/TurtleSim_FaceTracker/blob/master/graph.png)
+![](https://github.com/BanafshehKarimian/TurtleSim_FaceTracker/blob/main/result.png)<br />
+![](https://github.com/BanafshehKarimian/TurtleSim_FaceTracker/blob/main/graph.PNG)<br />
